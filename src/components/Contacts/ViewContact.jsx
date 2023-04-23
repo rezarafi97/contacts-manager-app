@@ -37,7 +37,7 @@ const ViewContact = () => {
     };
 
     fetchData();
-  }, []);
+  }, [contactId, setLoading, setState, state]);
 
   const { contact, group } = state;
 

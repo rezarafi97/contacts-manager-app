@@ -7,6 +7,7 @@ const Spinner = () => {
         src={SpinnerGIF}
         className="d-block m-auto"
         style={{ width: "200px" }}
+        alt="Spinner"
       />
     </>
   );

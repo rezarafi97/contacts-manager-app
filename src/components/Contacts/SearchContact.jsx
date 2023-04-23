@@ -4,7 +4,7 @@ import { ContactContext } from "../../context/contactContext";
 import { PURPLE } from "../../helpers/colors";
 
 const SearchContact = () => {
-  const { contactSearch} = useContext(ContactContext);
+  const { contactSearch } = useContext(ContactContext);
   
   return (
     <div className="input-group mx-2 w-75" dir="ltr">

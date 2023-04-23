@@ -40,7 +40,7 @@ const EditContact = () => {
     };
 
     fetchData();
-  }, []);
+  }, [contactId, setContact, setLoading]);
 
   const submitForm = async (values) => {
     try {
@@ -223,6 +223,7 @@ const EditContact = () => {
                     src={contact.photo}
                     className="img-fluid rounded"
                     style={{ border: `1px solid ${PURPLE}` }}
+                    alt="Contact"
                   />
                 </div>
               </div>
@@ -233,6 +234,7 @@ const EditContact = () => {
                 src={require("../../assets/man-taking-note.png")}
                 height="300px"
                 style={{ opacity: "60%" }}
+                alt="Background"
               />
             </div>
           </section>

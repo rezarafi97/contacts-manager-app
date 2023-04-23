@@ -59,7 +59,7 @@ const App = () => {
     };
 
     fetchData();
-  }, []);
+  }, [setContacts, setFilteredContacts, setGroups, setLoading]);
 
   const createContactForm = async (values) => {
     try {
