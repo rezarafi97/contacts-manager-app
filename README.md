@@ -1,3 +1,7 @@
+وب اپلیکیشن داینامیک دفترچه مخاطبین برای یادگیری کلیه مفاهیم
+React js 
+بوده و لازم به ذکر است که سروری برای این پروژه طراحی نشده است
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
